@@ -1,0 +1,31 @@
+# TimerPlugin Configuration
+# You can change the material used for the timer digits here.
+# Use valid Bukkit Material names (e.g., ORANGE_CONCRETE, LIME_WOOL, GOLD_BLOCK)
+
+# Format/Formato:
+# - ORANGE_CONCRETE
+
+render-material:
+  - ORANGE_CONCRETE
+  - RED_CONCRETE
+  - WHITE_CONCRETE
+
+########################
+#     Finish Rockets   #
+########################
+#
+# Lanzara cohetes al finalizar la cuenta regresiva
+# Fireworks will be set off at the end of the countdown
+
+fireworks-on-finish: true # true/false
+fireworks-duration: 10 # seconds/segundos
+
+########################
+#       ANNOUNCES      #
+########################
+
+announce:
+  - "<green>Evento terminado"
+  - "<#ff0000>Rojo"
+  - "<gradient:#ff0000:#ffff00>GANADOR</gradient>"
+  - "<bold><yellow>TIEMPO FINALIZADO</bold>"
